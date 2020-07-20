@@ -1,18 +1,18 @@
 
 **Table of Content**
 	<li>What is docker and it's advantage?</li>
-	<li>2. Difference between container and virtual machine<li>
-	3. What is docker engine and it's architecutre?
-	4. What is Docker image,registry and container?  
-	5. What is snapshot ?
-	6. Why guest OS not required in the docker container?
-	7. What is kernel?
-	8. Difference between kernel space and user space
-	9. Deference between deamon and process?
-	10. Deep drive regarding hasing function
-	11. What is the meaning of ephemeral ?
-	12. What is REST API and how it's work.
-	13. What is database persistence layer?
+	<li> Difference between container and virtual machine</li>
+	<li> What is docker engine and it's architecutre?</li>
+	<li> What is Docker image,registry and container?</li> 
+	<li> What is snapshot ?</li>
+	<li> Why guest OS not required in the docker container?</li>
+	<li> What is kernel?</li>
+	<li> Difference between kernel space and user space</li>
+	<li> Deference between deamon and process?</li>
+	<li> Deep drive regarding hasing function</li>
+	<li> What is the meaning of ephemeral ?</li>
+	<li> What is REST API and how it's work.</li>
+	 <li>What is database persistence layer?</li>
 	
 <h2>What is Docker</h2>
 Docker is a platform for developers and sysadmins to  **build, run, and share**  applications with containers. The use of containers to deploy applications is called  _containerization_. Containers are not new, but their use for easily deploying applications is.
