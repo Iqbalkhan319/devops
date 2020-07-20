@@ -30,3 +30,13 @@ A container runs  _natively_  on Linux and shares the kernel of the host machine
 By contrast, a  **virtual machine**  (VM) runs a full-blown “guest” operating system with  _virtual_  access to host resources through a hypervisor. In general, VMs incur a lot of overhead beyond what is being consumed by your application logic.
 
 ![ImageName](images/container_vs_vm.jpg)
+## Docker Engine
+
+_Docker Engine_  is a client-server application with these major components:
+
+-   A server which is a type of long-running program called a daemon process (the  `dockerd`  command).
+    
+-   A REST API which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
+    
+-   A command line interface (CLI) client (the  `docker`  command).
+[engine-components-flow.png](https://github.com/Iqbalkhan319/devops/blob/master/images/engine-components-flow.png "engine-components-flow.png")
