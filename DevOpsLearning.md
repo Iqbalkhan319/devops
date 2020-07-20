@@ -3,7 +3,9 @@
 	<li>What is docker and it's advantage?</li>
 	<li> Difference between container and virtual machine</li>
 	<li> What is docker engine and it's architecutre?</li>
-	<li> What is Docker image,registry and container?</li> 
+	<li> What is Docker  registries?</li> 
+	<li> What is Docker  objects (images and container)?</li>
+	<li> Docker underlying technology</li>  
 	<li> What is snapshot ?</li>
 	<li> Why guest OS not required in the docker container?</li>
 	<li> What is kernel?</li>
@@ -30,6 +32,7 @@ A container runs  _natively_  on Linux and shares the kernel of the host machine
 By contrast, a  **virtual machine**  (VM) runs a full-blown “guest” operating system with  _virtual_  access to host resources through a hypervisor. In general, VMs incur a lot of overhead beyond what is being consumed by your application logic.
 
 ![ImageName](images/container_vs_vm.jpg)
+
 ## Docker Engine
 
 _Docker Engine_  is a client-server application with these major components:
@@ -39,7 +42,6 @@ _Docker Engine_  is a client-server application with these major components:
 -   A REST API which specifies interfaces that programs can use to talk to the daemon and instruct it what to do.
     
 -   A command line interface (CLI) client (the  `docker`  command).
-
 ![ImageName](images/engine-components-flow.png)
 
 The CLI uses the Docker REST API to control or interact with the Docker daemon through scripting or direct CLI commands. Many other Docker applications use the underlying API and CLI.
@@ -164,5 +166,4 @@ Union file systems, or UnionFS, are file systems that operate by creating layers
 ### Container format
 
 Docker Engine combines the namespaces, control groups, and UnionFS into a wrapper called a container format. The default container format is  `libcontainer`. In the future, Docker may support other container formats by integrating with technologies such as BSD Jails or Solaris Zones.
-
 
