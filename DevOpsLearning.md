@@ -1,7 +1,7 @@
 
 **Table of Content**
-	1. What is docker and it's advantage?
-	2. Difference between container and virtual machine
+	<li>What is docker and it's advantage?</li>
+	<li>2. Difference between container and virtual machine<li>
 	3. What is docker engine and it's architecutre?
 	4. What is Docker image,registry and container?  
 	5. What is snapshot ?
