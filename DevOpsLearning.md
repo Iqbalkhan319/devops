@@ -40,4 +40,4 @@ _Docker Engine_  is a client-server application with these major components:
     
 -   A command line interface (CLI) client (the  `docker`  command).
 
-<center>![ImageName](images/engine-components-flow.png)</center>
+![ImageName](images/engine-components-flow.png)
